@@ -363,174 +363,134 @@ value="Search">
 
     <div class="project-grid-page">
 
-        <!--Taxonomy Title-->
-        <div class="container">
-            <div class="row taxonomy-title-filter-bar">
+     
 
-                <!--taxonomy title-->
-                <div class="col-6 col-md-4 grid-main-title">
-                    <h1 id="grid-h1-title"><a href="index.html">Gallery</a> <span id="grid-country"> &nbsp; </span></h1>
+<!-- Hook Up the Slider -->
+<script type="text/javascript">
+    (function($) {
+        $(window).load(function() {
+
+            $('#home-carousel').owlCarousel({
+                loop:true,
+                nav:true,
+                navText: ['<img src="../../wp-content/themes/saota/img/previous-arrow.png">','<img src="../../wp-content/themes/saota/img/next-arrow.png">'],
+                dots:true,
+                items: 1,
+                autoplay: true,
+                margin: 0
+            })
+
+        });
+    })(jQuery);
+</script>
+
+
+<!-- Carousel HTML -->
+    <div id="home-carousel" class="owl-carousel owl-theme">
+
+    <!--Featured Projects-->
+
+
+
+
+        <div class="home-slide" style='background-image: url("../umma.JPG")'>
+            <div class="slide-content">
+                <h2><a href="project/umma/index.html">Umma university</a></h2>
+                <div class="project-location">
+                    Namanga Rd, Kajiado
+                    <br/>
                 </div>
-
-
-                <!--filters-->
-                <div class="col-6 col-md-8 taxonomy-filters">
-                    <div class="content-container-float-right">
-
-
-
-
-
-                    </div>
-                </div>
-
             </div>
         </div>
 
 
-        <!-- Hook Up the Slider -->
-        <script type="text/javascript">
-            (function($) {
-                $(window).load(function() {
-
-                    $('#project-carousel').owlCarousel({
-                        loop:true,
-                        nav:true,
-                        navText: ['<img src="../../wp-content/themes/saota/img/previous-arrow.png">','<img src="../../wp-content/themes/saota/img/next-arrow.png">'],
-                        dots:false,
-                        items: 1,
-                        autoplay: true,
-                        margin: 0,
-                        URLhashListener:true,
-                        autoplayHoverPause:true,
-                        startPosition: 'URLHash'
-                    })
-
-                });
-            })(jQuery);
-        </script>
-
-
-        <!-- Carousel HTML -->
-
-
-        <div id="project-carousel" class="owl-carousel owl-theme">
-
-            
-            <div data-hash="1" class="item project-slide" style='background-image: url("../../gallery/umma.JPG")'>
+        <div class="home-slide" style='background-image: url("../team2.jpg")'>
+            <div class="slide-content">
+                <h2><a href="project/jamia/index.html">Jamia Mosque</a></h2>
+                <div class="project-location">
+                    Banda Street, Nairobi
+                                        </br>
+                                    </div>
             </div>
+        </div>
 
 
-            <div data-hash="1" class="item project-slide" style='background-image: url("../../gallery/team.jpg")'>
+        <div class="home-slide" style='background-image: url("../umma1.JPG")'>
+            <div class="slide-content">
+                <h2><a href="project/jamia/index.html">Jamia Mosque</a></h2>
+                <div class="project-location">
+                    Banda Street, Nairobi
+                                        </br>
+                                    </div>
             </div>
+        </div>
 
-
-            <div data-hash="2" class="item project-slide" style='background-image: url("../../gallery/team2.jpg")'>
+        <div class="home-slide" style='background-image: url("../team.jpg")'>
+            <div class="slide-content">
+                <h2><a href="project/jamia/index.html">Jamia Mosque</a></h2>
+                <div class="project-location">
+                    Banda Street, Nairobi
+                                        </br>
+                                    </div>
             </div>
-
-
-        </div>
-
-
-        <!--Navigation Image Strip-->
-
-        <!-- Hook Up the Slider -->
-        <script type="text/javascript">
-            (function($) {
-                $(window).load(function() {
-
-                    $('#project-carousel-thumbs').owlCarousel({
-                        loop:false,
-                        margin:10,
-                        center:false,
-                        nav:false,
-                        dots: false,
-                        responsive:{
-                            0:{
-                                items:4
-                            },
-                            550:{
-                                items:5
-                            },
-                            800:{
-                                items:6
-                            },
-                            950:{
-                                items:7
-                            },
-                            1100:{
-                                items:8
-                            },
-                            1250:{
-                                items:9
-                            },
-                            1400:{
-                                items:10
-                            },
-                            1550:{
-                                items:11
-                            },
-                            1700:{
-                                items:12
-                            },
-                            1850:{
-                                items:13
-                            },
-                            2000:{
-                                items:14
-                            },
-                            2150:{
-                                items:15
-                            },
-                            2300:{
-                                items:16
-                            },
-                            2450:{
-                                items:17
-                            },
-                            2600:{
-                                items:18
-                            }
-                        }
-                    })
-
-                });
-            })(jQuery);
-        </script>
-
-        <!--Thumbnail HTML-->
-        <div id="project-carousel-thumbs" class="project-thumbs-nav-strip owl-carousel owl-theme">
-
-
-
-        </div>
-
-
-        <!--Manual Thumbnail HTML for Desktop-->
-        <div id="project-carousel-thumbs-man-desktop" class="project-thumbs-nav-strip">
-
-
-
         </div>
 
 
 
-        <!--Project Title-->
-        <div class="project-title-and-location">
-            <h1>Our architects working on a project </h1>
-            <div class="project-location">
+        <div class="home-slide" style='background-image: url("../umma2.JPG")'>
+            <div class="slide-content">
+                <h2><a href="project/avic/index.html">Avic Towers</a></h2>
+                <div class="project-location">
+                     Waiyaki Way, Westlands
+                                        </br>
+                                                 </div>
+            </div>
+        </div>
 
-                </br>
-                </br>
-                </br>
-                <a href="index.html#down_scroll"><button type="button" class="btn btn-success btn-sm">Scroll Down.</button></a>  </div>
+
+        <div class="home-slide" style='background-image: url("wp-content/slider_images/afraa_suites.jpg")'>
+            <div class="slide-content">
+                <h2><a href="project/afraa/index.html">Afraa Suites</a></h2>
+
+                <div class="project-location">
+                 Popo Road,South C.
+                                            <br/>
+                                      </div>
+            </div>
+        </div>
+
+
+        <div class="home-slide" style='background-image: url("../umma.JPG")'>
+            <div class="slide-content">
+                <h2><a href="project/tcounty/index.html">Elgon House</a></h2>
+                <div class="project-location">
+                    Kitale, Trans Nzoia
+                                            <br/>
+
+                                                      </div>
+            </div>
+        </div>
+
+
+
+                    <div class="home-slide" style='background-image: url("wp-content/all_projects/jamia_mall/jamia1.jpg")'>
+            <div class="slide-content">
+                <h2><a href="project/ocean/index.html">Jamia Globe Mall.</a></h2>
+                <div class="project-location">
+                    Kirinyaga Rd, Globe Roundabout                	<br/>
+                                         </div>
+            </div>
         </div>
 
 
 
 
-    </div>
 
+
+</div>
+
+
+</div><!-- end .front-page -->
     <!--The Grid-->
     <div class="container-fluid taxonomy-grid facetwp-template" id="down_scroll">
         <div class="row">
