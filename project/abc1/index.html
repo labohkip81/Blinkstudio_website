@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+
+
+<!-- Mirrored from blinkstudio4.000webhostapp.com/project/abc1/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 30 Nov 2018 19:34:29 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+	<link rel="icon" href="../../favicon.jpg" type="image/gif" sizes="16x16">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-title" content="Blink Studio Ltd.">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="../../xmlrpc.html">
+	<title>ABC Towers - Blink Studio Ltd.</title>
+
+<!-- This site is optimized with the Yoast SEO plugin v8.3 - https://yoast.com/wordpress/plugins/seo/ -->
+<link rel="canonical" href="index.html" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="ABC - Blink Studio Architecture and Design" />
+<meta property="og:description" content="...Read More..." />
+<meta property="og:url" content="index.html" />
+<meta property="og:site_name" content="Blink Studio Architecture and Design" />
+<meta property="article:publisher" content="https://www.facebook.com/blinkstudioarchitects/?hc_ref=ARR43GWNna9QbIr1cEOE_ZtahcGMYBUJJv8lwod_mDYWy3I5S7HEdJrPY4WetMpylKw&amp;__tn__=kC-R" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="...Read More..." />
+<meta name="twitter:title" content="ABC - Blink Studio Architecture and Design" />
+<meta name="twitter:site" content="@_blinkstudio3" />
+<meta name="twitter:creator" content="@_blinkstudio3" />
+<script type='application/ld+json'>{"@context":"https:\/\/schema.org","@type":"Organization","url":"http:\/\/www.blinkstudio.co.ke\/","sameAs":["https:\/\/www.facebook.com\/blinkstudio\/","index.html\/\/www.instagram.com/blink_studio_ltd\/_blinkstudio3\/","index.html\/\/www.linkedin.com\/company\/_blinkstudio3---stefan-antoni-olmesdahl-truen-architects","index.html\/\/za.pinterest.com\/blinkstudio\/","https:\/\/twitter.com\/_blinkstudio3"],"@id":"http:\/\/www.blinkstudio.co.ke\/#organization","name":"Blink","logo":"http:\/\/www.blinkstudio.co.ke\/wp-content\/uploads\/2018\/04\/saota-logo-white-on-black.png"}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='../../index-2.html' />
+<link rel='dns-prefetch' href='http://s.w.org/' />
+<!-- This site uses the Google Analytics by MonsterInsights plugin v7.2.0 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+<script type="text/javascript" data-cfasync="false">
+	var mi_version         = '7.2.0';
+	var mi_track_user      = true;
+	var mi_no_track_reason = '';
+
+	var disableStr = 'ga-disable-UA-114790865-1';
+
+	/* Function to detect opted out users */
+	function __gaTrackerIsOptedOut() {
+		return document.cookie.indexOf(disableStr + '=true') > -1;
+	}
+
+	/* Disable tracking if the opt-out cookie exists. */
+	if ( __gaTrackerIsOptedOut() ) {
+		window[disableStr] = true;
+	}
+
+	/* Opt-out function */
+	function __gaTrackerOptout() {
+	  document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+	  window[disableStr] = true;
+	}
+
+	if ( mi_track_user ) {
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','../../../www.google-analytics.com/analytics.js','__gaTracker');
+
+		__gaTracker('create', 'UA-114790865-1', 'auto');
+		__gaTracker('set', 'forceSSL', true);
+		__gaTracker('require', 'displayfeatures');
+		__gaTracker('require', 'linkid', 'linkid.html');
+		__gaTracker('send','pageview');
+	} else {
+		console.log( "" );
+		(function() {
+			/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+			var noopfn = function() {
+				return null;
+			};
+			var noopnullfn = function() {
+				return null;
+			};
+			var Tracker = function() {
+				return null;
+			};
+			var p = Tracker.prototype;
+			p.get = noopfn;
+			p.set = noopfn;
+			p.send = noopfn;
+			var __gaTracker = function() {
+				var len = arguments.length;
+				if ( len === 0 ) {
+					return;
+				}
+				var f = arguments[len-1];
+				if ( typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function' ) {
+					console.log( 'Not running function __gaTracker(' + arguments[0] + " ....) because you are not being tracked. " + mi_no_track_reason );
+					return;
+				}
+				try {
+					f.hitCallback();
+				} catch (ex) {
+
+				}
+			};
+			__gaTracker.create = function() {
+				return new Tracker();
+			};
+			__gaTracker.getByName = noopnullfn;
+			__gaTracker.getAll = function() {
+				return [];
+			};
+			__gaTracker.remove = noopfn;
+			window['__gaTracker'] = __gaTracker;
+					})();
+		}
+</script>
+<!-- / Google Analytics by MonsterInsights -->
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/www.blinkstudio.co.ke\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.8"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='owlcarousel-style-css'  href='../../wp-content/themes/saota/package-includes/owl-carousel/assets/owl.carousel.min622c622c.css?ver=0.0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='owlcarousel-style-default-css'  href='../../wp-content/themes/saota/package-includes/owl-carousel/assets/owl.theme.default.min622c622c.css?ver=0.0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='saota-styles-css'  href='../../wp-content/themes/saota/css/theme.min622c622c.css?ver=0.0.1' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var monsterinsights_frontend = {"js_events_tracking":"true","is_debug_mode":"false","download_extensions":"doc,exe,js,pdf,ppt,tgz,zip,xls","inbound_paths":"","home_url":"http:\/\/www.blinkstudio.co.ke","track_download_as":"event","internal_label":"int","hash_tracking":"false"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../../wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend.minb324b324.js?ver=7.2.0'></script>
+<script type='text/javascript' src='../../wp-includes/js/jquery/jqueryb8ffb8ff.js?ver=1.12.4'></script>
+<script type='text/javascript' src='../../wp-includes/js/jquery/jquery-migrate.min330a330a.js?ver=1.4.1'></script>
+<script type='text/javascript' src='../../wp-content/themes/saota/js/modernizr.custom622c622c.js?ver=0.0.1'></script>
+<script type='text/javascript' src='../../wp-content/themes/saota/js/popper.min50105010.js?ver=4.9.8'></script>
+<link rel='https://api.w.org/' href='../../wp-json/index.html' />
+<link rel="alternate" type="application/json+oembed" href="../../wp-json/oembed/1.0/embed9e583aee.json?url=http%3A%2F%2Fwww.blinkstudio.co.ke%2Fproject%2Fakwa%2F" />
+<link rel="alternate" type="text/xml+oembed" href="../../wp-json/oembed/1.0/embedef14ac57?url=http%3A%2F%2Fwww.blinkstudio.co.ke%2Fproject%2Fakwa%2F&amp;format=xml" />
+</head>
+
+
+<body class="project-template-default single single-project postid-2601">
+
+<div class="hfeed site" id="page">
+
+	<!-- ******************* The Navbar Area - Desktop >= 992px  ******************* -->
+	<div class="wrapper-fluid wrapper-navbar desktop-nav">
+		<nav class="navbar navbar-expand-md">
+			<div class="container">
+
+               <!-- Logo (flex item 1)-->
+			   <div class="logo">
+				<a href="../../index-2.html">
+					<img src="../../wp-content/uploads/2017/10/saota-logo-white.png" alt="Blink Studio Ltd."/>
+				</a>
+			</div>
+
+				<!-- Navigation Menu (flex item 2)-->
+				<div id="navbarNavDropdown" class="collapse navbar-collapse"><ul id="main-menu" class="navbar-nav"><li id="menu-item-20" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-20"><a href="#">Projects</a>
+					<ul class="sub-menu">
+						<li id="menu-item-3282" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3282"><a href="../../all-projects/commercial/index.html">Commercial</a></li>
+						<li id="menu-item-3276" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3276"><a href="../../all-projects/public/index.html">Public</a></li>
+						<li id="menu-item-3278" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3278"><a href="../../all-projects/hospitality/index.html">Hospitality</a></li>
+						<li id="menu-item-125" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-125"><a href="#">Residential</a>
+							<ul class="sub-menu">
+								<li id="menu-item-3280" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3280"><a href="../../all-projects/single-residential/index.html">Single Residential</a></li>
+								<li id="menu-item-3279" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3279"><a href="../../all-projects/multi-residential/index.html">Multi Residential</a></li>
+							</ul>
+						</li>
+						<li id="menu-item-3278" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3278"><a href="../../all-projects/interior/index.html">Interior</a></li>
+						<li id="menu-item-3277" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3277"><a href="../../all-projects/master-planning/index.html">Master Planning</a></li>
+						<li id="menu-item-3278" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3278"><a href="../../all-projects/csr/index.html">CSR</a></li>
+					</ul>
+				</li>
+					<li id="menu-item-353" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-353"><a href="#">About</a>
+						<ul class="sub-menu">
+
+							<li id="menu-item-356" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-356"><a href="../../about/Philosophy/index.html">Philosophy</a></li>
+							<li id="menu-item-185" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-185"><a href="../../about/awards/index.html">Certifications</a></li>
+							<li id="menu-item-356" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-356"><a href="../../about/purpose/index.html">Purpose</a></li>
+							<li id="menu-item-356" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-356"><a href="../../about/methodology/index.html">Methodology</a></li>
+							<li id="menu-item-356" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-356"><a href="../../about/thought_leadership/index.html">Thought Leadership</a></li>
+						</ul>
+					</li>
+					<li id="menu-item-24" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-24"><a href="../../gallery/gallery/index.html">Gallery</a>
+
+					</li>
+					<li id="menu-item-182" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-182"><a href="../../careers/index.html">Careers</a></li>
+					<li id="menu-item-25" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-25"><a href="../../about/contacts/index.html">Contact</a></li>
+				</ul></div>
+				<!--Social Media & Search (flex item 3)-->
+				<div class="social-media-and-search-cont">
+
+					<div class="social-media">
+						<a href="https://www.facebook.com/blinkstudioarchitects/?hc_ref=ARR43GWNna9QbIr1cEOE_ZtahcGMYBUJJv8lwod_mDYWy3I5S7HEdJrPY4WetMpylKw&amp;__tn__=kC-R" target="_blank">
+							<i class="fa fa-facebook" aria-hidden="true"></i>
+						</a>
+						<!-- not yet done -->
+						<a href="https://twitter.com/StudioBlink/" target="_blank">
+							<i class="fa fa-twitter" aria-hidden="true"></i>
+						</a>
+
+						<a href="https://www.instagram.com/blink_studio_ltd/" target="_blank">
+							<i class="fa fa-instagram" aria-hidden="true"></i>
+						</a>
+						<a href="https://www.linkedin.com/company/blink-studio-ltd/" target="_blank">
+							<i class="fa fa-linkedin" aria-hidden="true"></i>
+						</a>
+
+					</div>
+					<!-- feature was intentionally commented out for future improvement. -->
+					<!-- <div class="search-box">
+                            <form method="get" id="searchform" action="http://blinkstudio.co.ke/" role="search">
+<label class="assistive-text" for="s">Search</label>
+<div class="input-group">
+<input class="field form-control" id="s" name="s" type="text"
+placeholder="Search &hellip;">
+<span class="input-group-btn">
+<input class="submit btn btn-primary" id="searchsubmit" name="submit" type="submit"
+value="Search">
+</span>
+</div>
+</form>
+                    </div>
+
+            </div> -->
+
+				</div><!-- .container -->
+		</nav><!-- .site-navigation -->
+	</div><!-- .wrapper-navbar end -->
+
+
+	<!-- ******************* The Navbar Area - Mobile =< 991px ******************* -->
+	<div class="header-bar-and-mobile-dropdown">
+
+		<div class="mobile-header-bar">
+			<div class="container">
+
+				<!-- Logo -->
+				<div class="logo">
+					<a href="../../index-2.html">
+						<img src="../../wp-content/uploads/2017/10/saota-logo-white.png" alt="Blink-studio Ltd."/>
+					</a>
+				</div>
+
+
+
+				<!--Hamburger-->
+				<button class="hamburger hamburger--slider" type="button">
+															<span class="hamburger-box">
+																	<span class="hamburger-inner"></span>
+															</span>
+				</button>
+
+			</div><!-- .container -->
+		</div><!-- .wrapper-navbar end -->
+
+		<!--Mobile Dropdown Navigation-->
+		<nav class="mobile-navigation">
+
+			<!--<div class="search-box">
+                                    </div>-->
+
+
+
+			<!--WordPress Menu-->
+			<div id="dl-menu" class="dl-menuwrapper"><ul id="main-menu-mobile" class="dl-menu dl-menuopen"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-20"><a href="#">Projects</a>
+				<ul class="sub-menu">
+					<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3282"><a href="../../all-projects/commercial/index.html">Commercial</a></li>
+					<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3276"><a href="../../all-projects/public/index.html">Public</a></li>
+					<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3278"><a href="../../all-projects/hospitality/index.html">Hospitality</a></li>
+					<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-125"><a href="#">Residential</a>
+						<ul class="sub-menu">
+							<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3280"><a href="../../all-projects/single-residential/index.html">Single Residential</a></li>
+							<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3279"><a href="../../all-projects/multi-residential/index.html">Multi Residential</a></li>
+						</ul>
+					</li>
+					<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3278"><a href="../../all-projects/interior/index.html">Interior</a></li>
+					<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3277"><a href="../../all-projects/master-planning/index.html">Master Planning</a></li>
+					<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3278"><a href="../../all-projects/csr/index.html">CSR</a></li>
+				</ul>
+			</li>
+				<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-353"><a href="#">About</a>
+					<ul class="sub-menu">
+
+						<li id="menu-item-356" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-356"><a href="../../about/Philosophy/index.html">Philosophy</a></li>
+						<li id="menu-item-185" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-185"><a href="../../about/awards/index.html">Certifications</a></li>
+						<li id="menu-item-356" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-356"><a href="../../about/purpose/index.html">Purpose</a></li>
+						<li id="menu-item-356" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-356"><a href="../../about/methodology/index.html">Methodology</a></li>
+						<li id="menu-item-356" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-356"><a href="../../about/thought_leadership/index.html">Thought Leadership</a></li>
+					</ul>
+				</li>
+				<li id="menu-item-24" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-24"><a href="../../gallery/gallery/index.html">Gallery</a>
+
+				</li>
+
+				<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-182"><a href="../../careers/index.html">Careers</a></li>
+				<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-25"><a href="../../about/contacts/index.html">Contact</a></li>
+			</ul></div>
+
+
+			<!--Social Media & Search -->
+										<div class="container social-media-and-search-cont">
+
+												<div class="social-media">
+														<a href="https://www.facebook.com/blinkstudioarchitects/?hc_ref=ARR43GWNna9QbIr1cEOE_ZtahcGMYBUJJv8lwod_mDYWy3I5S7HEdJrPY4WetMpylKw&amp;__tn__=kC-R" target="_blank">
+																<i class="fa fa-facebook" aria-hidden="true"></i>
+														</a>
+														<a href="https://twitter.com/StudioBlink/" target="_blank">
+																<i class="fa fa-twitter" aria-hidden="true"></i>
+														</a>
+
+														<a href="https://www.instagram.com/blink_studio_ltd/" target="_blank">
+																<i class="fa fa-instagram" aria-hidden="true"></i>
+														</a>
+														<a href="https://www.linkedin.com/company/blink-studio-ltd/" target="_blank">
+																<i class="fa fa-linkedin" aria-hidden="true"></i>
+														</a>
+
+												</div>
+
+
+							</div>
+
+																								</nav>
+
+																						</div>
+
+
+
+                <!--durban-->
+                <!--<div class="col-12 col-md-4">
+                    <div class="city-title">
+                        Durban
+                    </div>
+                    <div class="tel-and-email">
+                        Tel: +27 (0)31 566 4893<br>
+                        Email: <a href="mailto:info@saota.com">info@saota.com</a>
+                    </div>
+                    <div class="map-link">
+                        <a href="https://goo.gl/maps/s5dbt7JvvBo" target="_blank">View map</a>
+                    </div>
+                    <div class="address">
+                        Suite 3A, 10 Rydallvale Park<br>
+                        Douglas Saunders Drive<br>
+                        La Lucia Ridge, Durban, 4051
+                    </div>
+                </div>-->
+
+
+            </div>
+
+<div class="project-page">
+
+	<div class="project-carousel-container">
+
+        <!-- Hook Up the Slider -->
+        <script type="text/javascript">
+            (function($) {
+                $(window).load(function() {
+
+                    $('#project-carousel').owlCarousel({
+                        loop:true,
+                        nav:true,
+                        navText: ['<img src="http://www.saota.com/wp-content/themes/saota/img/previous-arrow.png">','<img src="../../wp-content/themes/saota/img/next-arrow.png">'],
+                        dots:false,
+                        items: 1,
+                        autoplay: true,
+                        margin: 0,
+                        URLhashListener:true,
+                        autoplayHoverPause:true,
+                        startPosition: 'URLHash'
+                    })
+
+                });
+            })(jQuery);
+        </script>
+
+
+        <!-- Carousel HTML -->
+
+
+            <div id="project-carousel" class="owl-carousel owl-theme">
+
+
+							<div data-hash="11" class="item project-slide" style='background-image: url("../../wp-content/all_projects/abc1/abc1.jpg")'>
+							</div>
+
+                    <div data-hash="1" class="item project-slide" style='background-image: url("../../wp-content/all_projects/abc1/abc2.jpg")'>
+                    </div>
+
+
+
+
+										<div data-hash="3" class="item project-slide" style='background-image: url("../../wp-content/all_projects/abc1/abc3.jpg")'>
+										</div>
+
+
+
+
+            </div>
+
+
+      <!--Navigation Image Strip-->
+
+        <!-- Hook Up the Slider -->
+        <script type="text/javascript">
+            (function($) {
+                $(window).load(function() {
+
+                    $('#project-carousel-thumbs').owlCarousel({
+                        loop:false,
+                        margin:10,
+                        center:false,
+                        nav:false,
+                        dots: false,
+                        responsive:{
+                            0:{
+                                items:4
+                            },
+                            550:{
+                                items:5
+                            },
+                            800:{
+                                items:6
+                            },
+                            950:{
+                                items:7
+                            },
+                            1100:{
+                                items:8
+                            },
+                            1250:{
+                                items:9
+                            },
+                            1400:{
+                                items:10
+                            },
+                            1550:{
+                                items:11
+                            },
+                            1700:{
+                                items:12
+                            },
+                            1850:{
+                                items:13
+                            },
+                            2000:{
+                                items:14
+                            },
+                            2150:{
+                                items:15
+                            },
+                            2300:{
+                                items:16
+                            },
+                            2450:{
+                                items:17
+                            },
+                            2600:{
+                                items:18
+                            }
+                        }
+                    })
+
+                });
+            })(jQuery);
+        </script>
+        <!--Thumbnail HTML-->
+                <div id="project-carousel-thumbs" class="project-thumbs-nav-strip owl-carousel owl-theme">
+                        <a href="#1" class="nav-thumb item">
+                <img src="../../wp-content/all_projects/abc1/abc1.jpg"/>
+            </a>
+
+                        <a href="#11" class="nav-thumb item">
+                <img src="../../wp-content/all_projects/abc1/abc2.jpg"/>
+            </a>
+
+						<a href="#3" class="nav-thumb item">
+		<img src="../../wp-content/all_projects/abc1/abc3.jpg"/>
+</a>
+
+
+
+
+
+        </div>
+
+
+        <!--Manual Thumbnail HTML for Desktop-->
+		            <div id="project-carousel-thumbs-man-desktop" class="project-thumbs-nav-strip">
+				                    <a href="#1" class="nav-thumb">
+                        <img src="../../wp-content/uploads/2017/12/SAOTA_CM_Akwa_1_-150x150.html"/>
+                    </a>
+
+					                    <a href="#2" class="nav-thumb">
+                        <img src="../../wp-content/uploads/2017/12/SAOTA_CM_Akwa_2_-150x150.html"/>
+                    </a>
+
+
+            </div>
+
+
+
+        <!--Project Title-->
+        <div class="project-title-and-location">
+            <h1>ABC Place.</h1>
+            <div class="project-location">
+				Waiyaki Way,   ABC Place, Nairobi      </div>
+        </div>
+
+
+
+
+	</div>
+
+
+
+	<!--Page Content-->
+	<div class="container project-content" id="project-content">
+		<div class="row">
+
+			<!--Intro Paragraph-->
+			<div class="col-12 col-lg-7">
+
+                <!--mobile header-->
+                <div class="mobile-title-and-location">
+                    <h1>ABC Place.</h1>
+                    <div class="mobile-project-location">
+				Waiyaki Way,   ABC Place, Nairobi.                  </div>
+                </div>
+
+                <!--intro paragraph-->
+                <div class="intro-paragraph">
+	                <p>A ‘younger brother’ to the adjacent ABC Tower I, it is designed to slightly tower over yet at seamlessly
+mesh with its ‘big brother.’
+The sense of familiarity is achieved through the use of common external finishes and a similar rectilinear
+modernist form.
+One of its outstanding features is the adoption of mechanical parking solutions enabling
+accommodation of 1000 parking spaces across 04 parking levels; a fitting solution to a growing problem
+in Kenya’s capital city.</p>
+                </div>
+
+                <div class="d-none d-lg-block">
+                    <a class="subtitle" href="../../all-projects/index.html">
+                        <span class="return-link-arrow">&lt;</span> Return
+                    </a>
+                </div>
+
+			</div>
+
+			<!--Sidebar info-->
+			<div class="col-12 col-lg-5">
+
+				<!--Project information-->
+				<div class="project-information">
+					<p class="subtitle">Project Information</p>
+                    <div class="project-info-table clearfix">
+
+
+                                                <div class="label-value-pair-block">
+                            <div>Project Location:</div>
+                            <div>Constructed</div>
+                        </div>
+
+	                                                <div class="label-value-pair-block">
+                                <div>Site Area:</div>
+                                <div>7.5 Acres<sup>2</sup></div>
+                            </div>
+
+	                                                <div class="label-value-pair-block">
+                                <div>Project Area:</div>
+                                <div>31,800 m<sup>2</sup></div>
+                            </div>
+
+
+
+	                                                <div class="label-value-pair-block">
+                                <div>Project Type:</div>
+                                <div>Mixed Use Development.</div>
+                            </div>
+
+
+                            </div>
+
+
+
+
+
+                    </div>
+				</div>
+
+				<!--Download images link-->
+				<!--<p class="download-images">
+					<a class="subtitle" href="#" target="_blank">Download Images</a>
+				</p>-->
+
+				<!--Social sharing-->
+				<div class="social-sharing d-none d-lg-block">
+					<span class="subtitle">Share: </span>
+					<div class="social-media-share">
+						<a href="https://www.facebook.com/blinkstudioarchitects/?hc_ref=ARR43GWNna9QbIr1cEOE_ZtahcGMYBUJJv8lwod_mDYWy3I5S7HEdJrPY4WetMpylKw&amp;__tn__=kC-R" target="_blank">
+							<i class="fa fa-facebook" aria-hidden="true"></i>
+						</a>
+						<a href="https://twitter.com/StudioBlink/" target="_blank">
+							<i class="fa fa-twitter" aria-hidden="true"></i>
+						</a>
+
+						<a href="https://www.instagram.com/blink_studio_ltd=/"true"></i>
+						<i class="fa fa-instagram" aria-hidden="true"></i>
+						</a>
+						<a href="https://www.linkedin.com/company/blink-studio-ltd/" target="_blank">
+								<i class="fa fa-linkedin" aria-hidden="true"></i>
+						</a>
+
+					</div>
+				</div>
+
+
+			</div>
+
+
+		</div><!-- .row -->
+
+		<div class="row d-lg-none mobile-return-and-social">
+
+			<!--return link-->
+			<div class="col-6">
+				<a class="subtitle" href="../../all-projects/index.html">
+					<span class="return-link-arrow">&lt;</span> Return
+				</a>
+			</div>
+
+			<!--Social sharing-->
+			<div class="col-6 social-sharing">
+				<div class="social-media-share">
+					<a href="https://www.facebook.com/blinkstudioarchitects/?hc_ref=ARR43GWNna9QbIr1cEOE_ZtahcGMYBUJJv8lwod_mDYWy3I5S7HEdJrPY4WetMpylKw&amp;__tn__=kC-R" target="_blank">
+						<i class="fa fa-facebook" aria-hidden="true"></i>
+					</a>
+					<a href="https://twitter.com/StudioBlink/" target="_blank">
+						<i class="fa fa-twitter" aria-hidden="true"></i>
+					</a>
+
+					<a href="https://www.instagram.com/blink_studio_ltd/" target="_blank">
+						<i class="fa fa-instagram" aria-hidden="true"></i>
+					</a>
+					<a href="https://www.linkedin.com/company/blink-studio-ltd/" target="_blank">
+							<i class="fa fa-linkedin" aria-hidden="true"></i>
+					</a>
+
+				</div>
+			</div>
+
+		</div><!-- .row -->
+
+
+	</div><!-- Container end -->
+
+</div>
+
+
+<footer class="site-footer">
+		<div class="container">
+				<div class="row">
+						<div class="col-11 clearfix">
+
+							<div class="copyright">
+									 &copy; 2018 Blink Studio Ltd. <span>All Rights Reserved.</span>
+							</div>
+
+							<div class="affiliates">
+									<span><a href="#" target="_blank">info@blinkstudio.co.ke</i></a></span>
+									<span><a href="#" target="_blank"></a>+254204400649.</span>
+									<span><a href="#" target="_blank">  ABC Place, Nairobi</a></span>
+							</div>
+
+						</div><!--col end -->
+				</div><!-- row end -->
+		</div><!-- container end -->
+</footer><!-- #colophon -->
+
+        </div><!-- #page we need this extra closing tag here -->
+
+    <script type='text/javascript' src='../../wp-content/themes/saota/js/jquery.dlmenu622c622c.js?ver=0.0.1'></script>
+<script type='text/javascript' src='../../wp-content/themes/saota/js/theme.min622c622c.js?ver=0.0.1'></script>
+<script type='text/javascript' src='../../wp-content/themes/saota/js/custom622c622c.js?ver=0.0.1'></script>
+<script type='text/javascript' src='../../wp-content/themes/saota/package-includes/owl-carousel/owl.carousel.min622c622c.js?ver=0.0.1'></script>
+<script type='text/javascript' src='../../wp-includes/js/wp-embed.min50105010.js?ver=4.9.8'></script>
+</body>
+
+<!-- Mirrored from www.saota.com/project/akwa/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 22 Oct 2018 10:25:30 GMT -->
+
+<!-- Mirrored from blinkstudio4.000webhostapp.com/project/abc1/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 30 Nov 2018 19:34:32 GMT -->
+</html>
