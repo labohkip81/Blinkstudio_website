@@ -425,12 +425,12 @@
         ## Single Projects Page
         =========================================================================*/
 
-        /*Add down arrow to carousel*/
-        var down_arrow = "<div class='down-arrow'><a href='#project-content'><img src='../../wp-content/themes/saota/img/down-arrow.png' alt='down-arrow'/></a></div>";
-        $('#project-carousel').append(down_arrow);
+        // /*Add down arrow to carousel*/
+        // var down_arrow = "<div class='down-arrow'><a href='#project-content'><img src='../../wp-content/themes/saota/img/down-arrow.png' /></a></div>";
+        // $('#project-carousel').append(down_arrow);
 
-        var down_arrow_career = "<div class='down-arrow'><a href='#careers-and-jobs'><img src='../../wp-content/themes/saota/img/down-arrow.png' alt='down-arrow'/></a></div>";
-        $('#career-carousel').append(down_arrow_career);
+        // var down_arrow_career = "<div class='down-arrow'><a href='#careers-and-jobs'><img src='../../wp-content/themes/saota/img/down-arrow.png' /></a></div>";
+        // $('#career-carousel').append(down_arrow_career);
 
 
         /*Add accent to thumbnail*/
