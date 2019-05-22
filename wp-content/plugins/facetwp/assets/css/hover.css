@@ -8,6 +8,8 @@
  
 .img_wrap {
   position: relative;
+  overflow: hidden;
+  transition:opacity 1s;
 }
  
 .img_description {
@@ -21,12 +23,19 @@
   opacity: 0;
 font-size: 50px;
 Text-align:center;
+transition: opacity 1s;
  
   /* transition effect. not necessary */
   transition: opacity .2s, visibility .2s;
 }
+.img_wrap:hover img{
+  -webkit-filter: blur(4px);
+  filter: blur(4px);
+}
  
 .img_wrap:hover .img_description {
+  opacity: 1;
+ 
   visibility: visible;
   opacity: 1;
 }
