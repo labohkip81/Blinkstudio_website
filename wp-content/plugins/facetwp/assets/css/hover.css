@@ -8,8 +8,7 @@
 .imgtext {
   color: white;
   background: rgba(0, 0, 0, 0.89);
-  text-align: center;
- 
+  text-align: center; 
   /* padding: 50px 15px 0 15px; */
   opacity: 0;
   position: absolute;
