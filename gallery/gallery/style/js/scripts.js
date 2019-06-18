@@ -13,21 +13,13 @@ $(document).ready(function() {
 	            stick: 'banner--stick',
 	            unstick: 'banner--unstick'
 	        },
-	        onStick: function() {
-	            $($.SmartMenus.Bootstrap.init);
-	        },
-	        onUnstick: function() {
-	            $('.navbar .btn-group').removeClass('open');
-	        }
+	     
 	    };
-	    var banner = new Headhesive('.navbar', options);
 	}
     /*-----------------------------------------------------------------------------------*/
     /*	HAMBURGER MENU ICON
     /*-----------------------------------------------------------------------------------*/
-    $(".nav-bars").on( "click", function() {
-        $(".nav-bars").toggleClass("is-active");
-    });
+  
     /*-----------------------------------------------------------------------------------*/
 	/*	DROPDOWN MENU
 	/*-----------------------------------------------------------------------------------*/
@@ -784,10 +776,7 @@ $(document).ready(function() {
 	empty_a.on('click', function(e) {
 	    e.preventDefault();
 	});
-    $('.onepage .navbar .nav li a').on('click', function() {
-        $('.navbar .navbar-collapse.in').collapse('hide');
-        $('.nav-bars').removeClass('is-active');
-    });
+  
     /*-----------------------------------------------------------------------------------*/
 	/*	ONEPAGE SMOOTH SCROLL
 	/*-----------------------------------------------------------------------------------*/	
