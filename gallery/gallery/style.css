@@ -4778,6 +4778,7 @@ a.color-s-youko:hover,
     overflow: hidden;
     text-align: center;
     height: 100%;
+    object-fit: cover;
 }
 figure.overlay img {
     opacity: 1;
@@ -4872,6 +4873,7 @@ figure.overlay img {
     bottom: 0;
     height: 100%;
     position: absolute;
+    object-fit: cover;
 }
 .overlay1 img {
     position: relative;
